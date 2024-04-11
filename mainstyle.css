@@ -1,0 +1,64 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+#box{
+	width:100%;
+	font-size: 30px;
+    padding:10px 10px 100px 110px;
+    margin:10px;
+}
+#header{
+	border:solid;
+	background-image: url('hani.png');
+	background-size: cover;
+	background-position: 40px 20px;
+    width:100%;
+    padding:10px;
+}
+
+#box a:hover{
+	color:rgb(80, 180, 250, 1.0);
+	cursor: pointer;
+	background-color: rgb(80, 80, 180, 1.0);
+}
+a{
+        text-decoration: none;
+}
+#moto{
+text-align:center;
+font-size: 40px;
+color:orange;
+word-spacing: 10px;
+}
+#statement{
+	font-size:20px;
+	text-align:center;
+	color:rgb(10, 10, 40, 0.8);
+    line-height: 30px;
+}
+#subscribe{
+        color:white;
+        align-items:center;
+        padding:10px;
+        font-size:20px;
+        margin:10px;
+        border-radius: 5px;
+        background-color:rgb(10, 10, 40, 0.8);
+      
+        cursor: pointer;
+       }
+ #subscribe button:hover{
+ 	background-color: red;
+ }
+ span{
+ 	color:red;
+ }
+#foot{
+	text-align: center;
+	font-size: 20px;
+	color:rgb(10, 10, 40, 0.8);
+    line-height: 30px;
+}

@@ -1,0 +1,120 @@
+        body{
+            background-image: url('hani.png');
+            background-size: cover;
+            color:rgb(100, 10, 40, 0.8);
+        }
+        h1{
+            text-align: center;
+            background-color:rgb(100, 10, 40, 0.8);
+            padding:15px 15px 15px 10px;
+            margin:20px 180px 20px 200px;
+            color:white;
+        }
+        #header{
+        background-color:rgb(100, 10, 40, 0.8);
+        text-align: center;
+        width: 600px;
+        padding:8px;
+        color: white;
+        margin:8px;
+        border-radius: 5px;
+        font-size: 25px;
+        color:rgb(100, 100, 240, 0.8);
+        }
+        img{
+            width: 75px;
+            float:left;
+            padding:15px 15px 30px 250px;
+        }
+       
+       .branch{
+         border-radius: 5px;
+         padding:10px;
+         margin:10px;
+         color:rgb(100, 10, 40, 0.8);
+       }
+       #bra{
+        padding:20px 200px 20px 200px;
+       }
+        .accounter{
+        padding:20px 200px 20px 200px;
+        font-size: 20px;   
+       }
+       .accountbirr{
+        width: 400px;
+        padding:8px;
+        margin:8px;
+        border-radius: 5px;
+        font-size: 18px;
+        color:rgb(100, 10, 40, 0.8);
+       }
+       #number{
+        font-size:15px;
+        border-radius: 5px;
+        padding:3px;
+        color:rgb(100, 10, 40, 0.8);
+       }
+       .save{
+        padding:20px 200px 20px 190px;
+        font-size: 20px;
+        
+        float: left;
+       }
+       .savesign{
+        padding:20px 200px 20px 200px;
+        font-size: 20px;
+       }
+       .sign{
+        font-size:15px;
+        border-radius: 5px;
+        padding:3px;
+        color:rgb(100, 10, 40, 0.8);
+        margin:3px;
+       }
+       .account{
+        width: 400px;
+        padding:8px;
+        margin:8px;
+        border-radius: 5px;
+        font-size: 18px;
+        color:rgb(100, 10, 40, 0.8);
+       }
+       .accountnum{
+        padding:20px 200px 20px 190px;
+        font-size: 20px;
+       }
+       .register{
+        color:white;
+        text-align:center;
+        padding:10px;
+        margin:10px;
+        border-radius: 5px;
+        background-color:rgb(100, 10, 40, 0.8);
+        cursor: pointer;
+       }
+       #clear{
+        margin:10px 70px 10px 10px;
+       }
+       .number{
+        padding:12px 5px 12px 5px;;
+        margin:5px;
+        border:2px solid rgb(150, 0, 0, 0.8);
+        border-radius:5px ;
+        font-size: 13px;
+       }
+
+       footer{
+        padding:20px 220px 20px 190px;
+        font-size:15px;
+        font-family: sans-serif;
+       }
+       td{
+        padding:0px 80px 0px 10px;
+        text-align: center;
+       }
+       table{
+        width:75%;
+        margin:0px 10px 0px 190px;
+
+       }
+    

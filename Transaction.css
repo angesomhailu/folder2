@@ -1,0 +1,41 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+#body{
+	background-image: url('hani.png');
+	background-size: cover;
+	padding:30px;
+}
+#field{
+	width:40%;
+	padding:50px;
+	margin: 15px auto;
+    border-radius: 10px;
+    background-image: url('hani.png');
+    min-height: 450px;
+    line-height: 35px;
+}
+legend{
+	text-align: center;
+	font-size: 20px;
+	color:rgb(100, 0, 0, 1.0);
+}
+a:hover,a:active{
+	background-color: rgb(100, 0, 100, 1.0);
+	color:red;
+	cursor: pointer;
+}
+a:link,a:visited{
+	color:blueviolet;
+}
+
+dt{
+	font-size: 30px;
+	color: rgb(200, 70, 150, 0.7);
+}
+dd{
+	font-size: 20px;
+}

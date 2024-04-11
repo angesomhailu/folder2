@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Age Calculator</title>
+    <link rel="stylesheet" type="text/css" href="age.css">
+</head>
+<body>
+    
+     <h1 class="java">JavaScript</h1>
+     <h2 class="java">Age Calculator</h2>
+   
+  <div id="all">
+    
+ <input id="size" type="text" name="enter" placeholder="MM/DD/YYYY">
+
+  <button id="Calculate" onclick="age_calculate()">Calculate</button>
+  
+  </div>
+  <br><br>
+  <p id="calculation"></p>
+  
+
+        <script>
+            function age_calculate(){               
+                var date=document.getElementById("size").value;
+                var number_length=date.length;
+ if(number_length==10){
+       if((date.charAt(2) && date.charAt(5))=="/"){
+                var month_=date.substr(0,2);
+                var month_num=parseInt(month_);                
+                if(1<=month_num && month_num<=12){
+                 var day_=date.substr(3,2);
+                var day_num=parseInt(day_);
+                if(1<=day_num && day_num<=31){
+                    var d = new Date();
+                    var b = new Date();
+                    var now_year=d.getFullYear();
+                    var year_=date.substr(6,4);
+                    var year_num=parseInt(year_);
+                         if(year_num<=now_year){                            
+                            d.setMonth(month_num);
+                            d.setDate(day_num);
+                            d.setYear(year_num);
+                            if(d.getTime()<=b.getTime()){
+                  var differ=(b.getTime()) - (d.getTime());      
+                  var day= parseInt(differ/86400000);
+                  var current_day=day%30;
+                  var month=parseInt(day/30.4368499);
+                  var current_month=month%12;
+                  var year=parseInt(month/12);
+                  var current_year=year%130;
+     
+ document.getElementById("calculation").innerHTML ="you are "+ current_year + " years, "+ current_month + " months and "+ current_day +" days old.";
+                    }
+                        else{
+    document.getElementById("calculation").innerHTML ="the date you entered is INVALID!" ;                       
+                        }  
+                 }
+                 else{
+                    document.getElementById("calculation").innerHTML ="you entered invalid year ";
+                 }  
+                }
+                else{
+                 document.getElementById("calculation").innerHTML ="the day should be 1 - 31";   
+                }
+                }
+                else{                   
+                    document.getElementById("calculation").innerHTML ="the month should be 1 - 12";  
+                } 
+       }              
+              else{
+              document.getElementById("calculation").innerHTML ="please separet the day,month and year by slash(/)";}
+        }                 
+ else if(date<0){
+              document.getElementById("calculation").innerHTML ="please you should not enter negative number";} 
+ else{
+    document.getElementById("calculation").innerHTML ="please enter 10 length date(fill all the day,month ,year)";
+ }  
+           }          
+        </script>
+    
+</body>
+</html>

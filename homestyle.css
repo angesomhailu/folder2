@@ -1,0 +1,41 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+   background-image: url('hani.png');
+}
+.lists{
+	font-size: 30px;
+	padding:10px;
+	margin:10px;
+}
+#header{
+	width:90%;
+	margin:10px auto;
+	border:solid;
+	border-radius: 10px;
+}
+
+a:hover,a:active{
+	color:rgba(200, 100, 200, 0.7);
+	background-color: transparent;
+}
+
+#list{
+	margin:-10px auto;
+}
+#order{
+	width:100%;
+	padding:10px 10px 10px 100px;
+}
+#owe{
+	text-align: center;
+    padding:5px 20px 30px 100px;
+}
+ #owe pre{
+ 	padding:10px;
+ 	font-size: 20px;
+ }

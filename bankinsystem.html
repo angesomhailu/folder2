@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bank system enter</title>
+    <link rel="stylesheet" type="text/css" href="bankinsystem.css">
+</head>
+<body>
+    <form>
+    <table id="table">
+          <tr>
+            <td><img src="logoofnationalbank.jpg"></td>
+          	<td>
+       <select id="header">
+       <option>NATIONAL BANK OF ETHIOPIA</option> 
+       <option>Abbissinia Bank</option>
+       <option>Dashen Bank</option>
+       <option>Anbessa Bank</option>
+       <option>Wegagen Bank</option>
+       <option >Awash Bank</option>
+       <option>Bunna Bank</option>
+       <option>Commercial Bank of Ethiopia</option>
+       <option>Oromia Bank</option>
+       <option>Tsedey Bank</option>
+       <option>Hibret Bank</option>
+       </select>          
+           </td>
+           <td>
+           	<label><b>CASH DEPOSITE VOUCHER</b></label>
+           </td>
+          </tr>
+    </table>
+    <table id="small">
+    	<tr>
+    		<td>Branch:<input class="branch" type="text" name="branch" placeholder="Enter Bank branch"></td>
+    		<td>Date:<input class="branch" type="date" name="date"></td>
+    	</tr>
+    </table><br>
+    <div class="account_holder">
+Name of Account Holder <input type="text" name="name" placeholder="Enter holder name"><br><br>
+    
+Account no. of Holder <input type="number" name="Account" placeholder="Please enter recievers account number">
+    </div>
+    <table class="save"> 
+    <tr>      
+   <td>
+    <ul >
+        <label style="font-family: sans-serif;font-size: 17px;"><u>Select only one</u></label>
+        <li>Saving Account <input type="radio" name="saving" checked></li>
+        <li>Demand Deposit Account <input type="radio" name="saving"></li>
+        <li>Special Demand Deposit Account <input type="radio" name="saving"></li>
+    </ul>
+   </td>
+   <td>
+   <ol>
+        <li>Deposited By <input class="send" type="text"></li>
+           <li>Telephone No<input class="send" type="number"></li>
+           <li>Signature's <input class="send" type="sign"></li>
+   </ol>
+   </td>
+   </tr>
+    </table>
+    <div class="account_holder">
+Amount in words <input type="text" placeholder="Please enter the amount of moneny in words"><br><br>
+Amount in number <input type="number" placeholder="Please enter the amount of moneny in decimal"><br><br>
+Account no.Sender <input type="number" placeholder="Please enter the Account number of Sender">
+     </div>
+     <label id="clear">
+   <input class="register" type="submit" name="register" value="Submit">
+   <input class="register" type="reset" name="delete" value="Clear">
+   </label>
+</body>
+<footer>
+    <table style="width:100%;">
+        <tr>
+            <td>This deposite form can not be used as Receipt</td>
+            <td>OPFM00256</td>
+        </tr>
+    </table>
+    </form>
+</footer>
+</html>

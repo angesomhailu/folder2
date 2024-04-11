@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feedback form</title>
+	<link rel="stylesheet" type="text/css" href="feedbackstyle.css">
+</head>
+<body>
+<form id="form">
+    <fieldset id="fieldset">
+	<legend>FEEDBACK FORM</legend>
+
+	<p id="header">
+		<label><strong>Please Fill This Form to Improve our Service for Better Future</strong></label>
+	</p>
+	<p id="name">
+		<label>Name:
+			<input type="text" name="name" placeholder="Enter your name"></label>
+	</p>
+	<p>
+		<label><span id="gen">Gender :</span> 
+			<label>Male<input type="radio" name="sex" checked>
+				</label>
+			<label>Female<input type="radio" name="sex">
+				</label>
+			<label>Other<input type="radio" name="sex">
+				</label>
+		</label>
+	</p>
+	
+	<p>
+		<label id="com"><u>Comments</u> <br>
+			<textarea id="area" name="comment" rows="3" cols="30">please write your comment here:
+			</textarea>
+		</label>
+	</p>
+	<p>
+		<label class="add">	Email address:
+			<input type="email" name="email" placeholder="*******@gmail.com"></label>
+	</p>
+	<p>
+		<label class="add">Date: 
+			<input type="date" name="date">
+		</label>
+	</p>
+	
+	<p>
+		<label class="add">Telephone:
+		<input type="telephone" name="phone" placeholder="+2519-**-**-****">	
+		</label>
+	</p>
+	<p id="choose">
+		<label><span class="head"><u>Things you liked from this Website</u></span>: <br>
+             <label>
+			Supplier<input type="checkbox" name="like">
+             </label>
+             <label>
+			Service<input type="checkbox" name="like">
+             </label>
+             <label>
+			Goods<input type="checkbox" name="like">
+             </label>
+             <label>
+			Source code<input type="checkbox" name="like">
+             </label>
+             <label>
+			Scope of Service<input type="checkbox" name="like">
+           </label>
+		</label>
+	</p>
+	<p>
+		<label><span class="head"><u>Where do you get our Website</u></span>: <br>
+			<label>
+			Search Engine<input type="radio" name="site">
+			</label>
+			<label>
+			links from another sites<input type="radio" name="site">
+			</label>
+			<label>
+			Facebook website<input type="radio" name="site">
+			</label>
+			<label>
+			From your Friends<input type="radio" name="site">
+			other<input type="radio" name="site">
+			</label>
+		</label>
+	</p>
+	<p id="op">
+		<label><span class="head"><u> Give Mark for our Service out of 10</u></span> :
+			<select name="number">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option selected>10</option>
+				<option>aweful</option>
+			</select>
+		</label>
+	</p>
+	<table id="tab">
+		<tr>
+		<td><input class="but" type="submit" name="register" value="submit"></td>
+        <td><input class="but" type="reset" name="delete" value="clear"></td>
+        <td><input class="but" type="button" onclick="alert('thanks we recieve your feedback')" value="click here"></td>
+		</tr>
+	</table>
+	</fieldset>
+</form>
+</body>
+</html>

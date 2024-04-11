@@ -1,0 +1,64 @@
+td{
+        padding:10px 80px 10px 10px;
+        text-align: center;
+       }
+       #table{
+       	background-color: rgb(127, 127, 127, 1.0);
+        width:75%;
+        margin:0px 10px 0px 190px;
+
+       }
+		#header{
+			font-size: 35px;
+			border-radius: 5px;
+			text-align: center;
+			background-color: rgb(160, 5, 5, 1.0);
+		}
+		#small{
+			width:100%;
+            font-size: 25px;
+		}
+		.branch{
+			border:2px solid black;
+            border-radius: 5px;
+            padding:10px;
+		}
+        .account_holder{
+            font-size: 20px;
+            padding:0px 0px 0px 210px;
+        }
+        .account_holder input{
+            padding: 10px;
+            width:50%;
+            border-radius:5px;
+            font-size: 20px;
+        }
+        .save{
+             padding:0px 40px 0px 190px;
+             font-size: 20px;
+        }
+        .send{
+            padding:2px;
+        }
+        .register{
+        color:white;
+        text-align:center;
+        padding:10px;
+        margin:10px;
+        border-radius: 5px;
+        background-color:rgb(100, 10, 40, 0.8);
+        cursor: pointer;
+       }
+       #clear{
+        padding:5px 5px 5px 600px;
+       }
+        body{
+            color:rgb(100, 10, 40, 0.8);
+            background-image: url('hani.png');
+            background-size: cover;
+        }
+        img{
+            width: 75px;
+            float:left;
+            padding:15px 15px 10px 10px;
+        }
